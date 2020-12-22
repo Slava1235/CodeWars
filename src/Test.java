@@ -20,6 +20,7 @@ public class Test {
         if (Arrays.equals(word1, word2)) {
             return true;
         }
+
         return false;
     }
 }
