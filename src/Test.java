@@ -11,6 +11,17 @@ public class Test {
         System.out.println(isAnagram(test, original));
     }
 
+
+
+
+
+
+
+
+
+
+
+
     public static boolean isAnagram(String test, String original) {
         // your code goes here
         char[] word = test.toLowerCase().replaceAll("[\\s]", " ").toCharArray();
