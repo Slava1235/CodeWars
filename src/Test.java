@@ -3,10 +3,11 @@ import java.util.Arrays;
 
 
 public class Test {
+    static String test = "One";
+    static String original = "neo";
 
     public static void main(String[] args) {
-        String test = "One";
-        String original = "neo";
+
         System.out.println(isAnagram(test, original));
     }
 
